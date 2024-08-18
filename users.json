@@ -1,0 +1,68 @@
+[
+  {
+    "user_id": 101,
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "birth_date": "1990-04-15",
+    "age": 33,
+    "gender": "Female",
+    "phone": "123-456-7890",
+    "email": "alice@example.com",
+    "bookings": [
+      {
+        "checkIn": "2024-07-01",
+        "checkOut": "2024-07-05",
+        "noGuests": 2,
+        "payments": {
+          "amount": 600.00,
+          "payment_date": "2024-07-01T00:00:00Z",
+          "payment_method": "Credit Card"
+        }
+      }
+    ]
+  },
+  {
+    "user_id": 102,
+    "firstName": "Bob",
+    "lastName": "Smith",
+    "birth_date": "1985-08-20",
+    "age": 38,
+    "gender": "Male",
+    "phone": "987-654-3210",
+    "email": "bob@example.com",
+    "bookings": [
+      {
+        "checkIn": "2024-08-15",
+        "checkOut": "2024-08-20",
+        "noGuests": 4,
+        "payments": {
+          "amount": 1000.00,
+          "payment_date": "2024-08-15T00:00:00Z",
+          "payment_method": "PayPal"
+        }
+      }
+    ]
+  },
+  {
+    "user_id": 103,
+    "firstName": "Claire",
+    "lastName": "Davis",
+    "birth_date": "1995-12-05",
+    "age": 28,
+    "gender": "Non-binary",
+    "phone": "456-123-7890",
+    "email": "claire@example.com",
+    "bookings": [
+      {
+        "checkIn": "2024-09-10",
+        "checkOut": "2024-09-15",
+        "noGuests": 3,
+        "payments": {
+          "amount": 750.00,
+          "payment_date": "2024-09-10T00:00:00Z",
+          "payment_method": "Debit Card"
+        }
+      }
+    ]
+  }
+]

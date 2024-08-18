@@ -1,0 +1,212 @@
+[
+  {
+    "listingsID": 1,
+    "name": "Cozy Downtown Loft",
+    "guestIncluded": 2,
+    "price": 120.50,
+    "minimumNights": 2,
+    "availability": 150,
+    "numberOfReviews": 37,
+    "lastReview": { "$timestamp": { "t": 1685612400, "i": 0 } },
+    "address": {
+      "neighborhoodName": "Downtown",
+      "boroughName": "Manhattan",
+      "street": "123 Elm St",
+      "latitude": 40.7128,
+      "longtitude": -74.0060,
+      "postal_code": "10001",
+      "city": "New York",
+      "country": "USA",
+      "state": "NY"
+    },
+    "roomType": {
+      "name": "Entire loft",
+      "roomDescription": "A spacious and modern loft in the heart of the city."
+    },
+    "listingPhotos": [
+      {
+        "photoURL": "http://example.com/photo1.jpg",
+        "listingDescription": "View from the living room."
+      }
+    ],
+    "hosts": {
+      "hostName": "John Doe",
+      "responseTime": "within an hour",
+      "responseRate": 98,
+      "listingCounts": 5
+    },
+    "amenities": [
+      {
+        "amenityName": "Wi-Fi"
+      },
+      {
+        "amenityName": "Heating"
+      },
+      {
+        "amenityName": "Washer"
+      },
+      {
+        "amenityName": "Dryer"
+      }
+    ],
+    "reviews": [
+      {
+        "rating": 4.5,
+        "comment": "Great place to stay!",
+        "review_date": "2023-05-10",
+        "user_id": 101
+      },
+      {
+        "rating": 4.3,
+        "comment": "Loved the location and the views!",
+        "review_date": "2023-04-22",
+        "user_id": 102
+      },
+      {
+        "rating": 4.0,
+        "comment": "Nice place but a bit noisy at night.",
+        "review_date": "2023-05-05",
+        "user_id": 103
+      }
+    ]
+  },
+  {
+    "listingsID": 2,
+    "name": "Modern Apartment Near Subway",
+    "guestIncluded": 4,
+    "price": 90.99,
+    "minimumNights": 3,
+    "availability": 120,
+    "numberOfReviews": 12,
+    "lastReview": { "$timestamp": { "t": 1685612401, "i": 1 } },
+    "address": {
+      "neighborhoodName": "Midtown",
+      "boroughName": "Manhattan",
+      "street": "456 Pine St",
+      "latitude": 40.7549,
+      "longtitude": -73.9840,
+      "postal_code": "10002",
+      "city": "New York",
+      "country": "USA",
+      "state": "NY"
+    },
+    "roomType": {
+      "name": "Private room",
+      "roomDescription": "Enjoy a private and quiet room close to major attractions."
+    },
+    "listingPhotos": [
+      {
+        "photoURL": "http://example.com/photo2.jpg",
+        "listingDescription": "The bedroom setup."
+      }
+    ],
+    "hosts": {
+      "hostName": "Emily Smith",
+      "responseTime": "within a day",
+      "responseRate": 95,
+      "listingCounts": 3
+    },
+    "amenities": [
+      {
+        "amenityName": "Kitchen"
+      },
+      {
+        "amenityName": "Coffee maker"
+      },
+      {
+        "amenityName": "Dishwasher"
+      }
+    ],
+    "reviews": [
+      {
+        "rating": 4.0,
+        "comment": "Convenient location and great service.",
+        "review_date": "2023-01-15",
+        "user_id": 102
+      },
+      {
+        "rating": 3.8,
+        "comment": "Good value for the money, clean and well-kept.",
+        "review_date": "2023-01-20",
+        "user_id": 103
+      },
+      {
+        "rating": 4.2,
+        "comment": "Minimalist setup but very functional.",
+        "review_date": "2023-01-25",
+        "user_id": 101
+      }
+    ]
+  },
+  {
+    "listingsID": 3,
+    "name": "Luxury Beachfront Villa",
+    "guestIncluded": 6,
+    "price": 250.00,
+    "minimumNights": 5,
+    "availability": 90,
+    "numberOfReviews": 50,
+    "lastReview": { "$timestamp": { "t": 1685612402, "i": 2 } },
+    "address": {
+      "neighborhoodName": "Beachside",
+      "boroughName": "Brooklyn",
+      "street": "789 Ocean Ave",
+      "latitude": 40.5785,
+      "longtitude": -73.9352,
+      "postal_code": "11224",
+      "city": "New York",
+      "country": "USA",
+      "state": "NY"
+    },
+    "roomType": {
+      "name": "Entire home",
+      "roomDescription": "A luxurious villa with stunning ocean views."
+    },
+    "listingPhotos": [
+      {
+        "photoURL": "http://example.com/photo3.jpg",
+        "listingDescription": "Sunset views from the balcony."
+      }
+    ],
+    "hosts": {
+      "hostName": "Michael Brown",
+      "responseTime": "within a few hours",
+      "responseRate": 99,
+      "listingCounts": 10
+    },
+    "amenities": [
+      {
+        "amenityName": "Air conditioning"
+      },
+      {
+        "amenityName": "Private pool"
+      },
+      {
+        "amenityName": "Beachfront access"
+      },
+      {
+        "amenityName": "Secure parking"
+      }
+    ],
+    "reviews": [
+      {
+        "rating": 5.0,
+        "comment": "Perfect vacation spot!",
+        "review_date": "2023-03-20",
+        "user_id": 103
+      },
+      {
+        "rating": 4.8,
+        "comment": "Absolutely breathtaking views and luxurious amenities.",
+        "review_date": "2023-03-22",
+        "user_id": 101
+      },
+      {
+        "rating": 4.9,
+        "comment": "Best holiday ever! The host was incredibly helpful.",
+        "review_date": "2023-03-25",
+        "user_id": 102
+      }
+    ]
+  }
+]
